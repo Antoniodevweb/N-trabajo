@@ -1,0 +1,25 @@
+body{
+    background: var(--firstColor);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--original-font);
+}
+
+.profile__container{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__name{
+    color: var(--colourTitle);
+}
+
+.profile__wallet,.profile__wallet--numbers {
+    color: var(--colourSecond);
+}
