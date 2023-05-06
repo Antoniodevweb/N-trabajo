@@ -4,32 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/assets/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/CSS/sign up/form-sing-up.css">
     <title>Registrarse</title>
 </head>
 <body>
+    <header class="banner">
+        <img class="banner-img" src="/assets/img/banner.webp" alt="banner">
+    </header>
     <main class="sign-up__content">
         <div class="sign-up__container">
-            <form class="sign-up__form">
-                <legend class="sign-up__title">Registro AREANDINA</legend>
-                <h1 class="sign-up__title--name">Nombre</h1>
-                <input type="text">
-                <h1 class="sign-up__title--lastName">Apellidos</h1>
-                <input type="text">
-                <h1 class="sign-up__title--bornDate">Fecha de Nacimiento</h1>
-                <input type="date" name="born-date" id="born-date">
-                <h1 class="sign-up__title--idDocument">Documento de identidad</h1>
-                <input type="file" name="id-file" id="id-file">
-                <h1 class="sign-up__title--wallet">Saldo</h1>
-                <input type="number" name="wallet" id="wallet">
-                <h1 class="sign-up__title--email">Correo Electronico</h1>
-                <input type="email" name="e-mail" id="e-mail">
-                <h1 class="sign-up__title--password">Contraseña</h1>
-                <input type="password" name="password" id="password">
-                <h1 class="sign-up__title--passwordConfirm">Confirmar Contraseña</h1>
-                <input type="password" name="passwordConfirm" id="passwordConfirm">
-    
-                <input class="sign-up__bttn--submit" type="submit" value="registrarse">
-            </form>
+            <div class="sign-up__box">
+                <form class="sign-up__form">
+                    <legend class="sign-up__title">Registro AREANDINA</legend>
+                    <h1 class="sign-up__titles">Nombre</h1>
+                    <input class="sign-up__inputs" type="text">
+                    <h1 class="sign-up__titles">Apellidos</h1>
+                    <input class="sign-up__inputs" type="text">
+                    <h1 class="sign-up__titles">Fecha de Nacimiento</h1>
+                    <input class="sign-up__inputs" type="date" name="born-date" id="born-date">
+                    <h1 class="sign-up__titles">Documento de identidad</h1>
+                    <input type="file" name="id-file" id="id-file">
+                    <h1 class="sign-up__titles">Saldo</h1>
+                    <input class="sign-up__inputs" type="number" name="wallet" id="wallet">
+                    <h1 class="sign-up__titles">Correo Electronico</h1>
+                    <input class="sign-up__inputs" type="email" name="e-mail" id="e-mail">
+                    <h1 class="sign-up__titles">Contraseña</h1>
+                    <input class="sign-up__inputs" type="password" name="password" id="password">
+                    <h1 class="sign-up__titles">Confirmar Contraseña</h1>
+                    <input class="sign-up__inputs" type="password" name="passwordConfirm" id="passwordConfirm">
+        
+                    <input class="sign-up__bttn--submit" type="submit" value="Registrar">
+                </form>
+            </div>   
         </div>
     </main>
 </body>

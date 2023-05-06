@@ -1,7 +1,14 @@
 :root{
-    /* colours cafe's */
+    /* colours cafe's 200 */
     --firstColor: #212a37;
     --original-font: Poppins;
     --colourTitle: #ffca27;
     --colourSecond: #f8f9f7;
+    --colourThird: #ff6238;
+    /*colours cafe's 959 */
+    --colourFour:#1F7551;
+    --colourFive: #9DC2B7;
+    --colourSix:#F8F6EB;
+    --colourSeven: #D3DFAF;
+    --colourEight: #ffE177; 
 }
