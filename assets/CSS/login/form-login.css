@@ -1,0 +1,42 @@
+body{
+    padding: 7rem;
+    line-height:normal;
+    background: var(--colourSix);
+}
+
+.login__content{
+    font-family: var(--original-font);
+}
+
+.login__title{
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--colourFour);
+}
+
+.login__titles{
+    font-size: 20px;
+    color: var(--colourFour);
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__inputs{
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid var(--colourFive);
+}
+
+.login__input--submit{
+    font-family: var(--original-font);
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    border: 2px solid var(--colourFive);
+    background: var(--colourEight);
+}
